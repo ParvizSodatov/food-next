@@ -127,7 +127,7 @@ export default function Menu() {
 							))}
 						</div>
 
-						{/* Mobile Dropdown */}
+				
 						<div className='lg:hidden'>
 							<select
 								value={activeCategory}
@@ -143,14 +143,13 @@ export default function Menu() {
 						</div>
 					</div>
 
-					{/* Menu Items Grid */}
 					<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
 						{filteredItems.map(item => (
 							<div
 								key={item.id}
 								className='bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300'
 							>
-								{/* Image */}
+					
 								<div className='aspect-[4/3] overflow-hidden'>
 									<Image
 										width={100}
@@ -160,7 +159,7 @@ export default function Menu() {
 										className='w-full h-full object-cover hover:scale-105 transition-transform duration-300'
 									/>
 								</div>
-								{/* Content */}
+							
 								<div className='p-4'>
 									<h3 className='text-gray-900 font-medium text-sm mb-3 line-clamp-2 min-h-[2.5rem]'>
 										{item.name}
@@ -188,7 +187,7 @@ export default function Menu() {
 						))}
 					</div>
 
-					{/* Empty State */}
+					
 					{filteredItems.length === 0 && (
 						<div className='text-center py-12'>
 							<p className='text-gray-500 text-lg'>
@@ -200,7 +199,7 @@ export default function Menu() {
 			</div>
 			<section className='py-16 px-4 sm:px-6 lg:px-8'>
 				<div className='max-w-7xl mx-auto'>
-					{/* Header */}
+				
 					<div className='mb-12'>
 						<h2 className='text-sm font-medium text-gray-600 uppercase tracking-wider mb-2'>
 							КОНТАКТЫ
@@ -208,9 +207,8 @@ export default function Menu() {
 						<div className='w-16 h-0.5 bg-orange-400'></div>
 					</div>
 
-					{/* Content Grid */}
 					<div className='grid lg:grid-cols-2 gap-8 lg:gap-16'>
-						{/* Left Column - Delivery Times */}
+					
 						<div className='grid grid-cols-2 gap-8'>
 							<div className='text-center'>
 								<div className='text-4xl sm:text-5xl font-bold text-amber-600 mb-2'>
@@ -261,9 +259,9 @@ export default function Menu() {
 							</div>
 						</div>
 
-						{/* Right Column - Map with Contact Info */}
+						
 						<div className='relative'>
-							{/* Map Background */}
+					
 							<div
 								className='w-full h-96 bg-gray-300 rounded-lg relative overflow-hidden'
 								style={{
@@ -272,7 +270,7 @@ export default function Menu() {
 									backgroundPosition: 'center',
 								}}
 							>
-								{/* Contact Info Card */}
+							
 								<div className='absolute top-4 left-4 bg-gray-800 text-white p-6 rounded-lg max-w-xs'>
 									<div className='space-y-4'>
 										<div className='flex items-start space-x-3'>

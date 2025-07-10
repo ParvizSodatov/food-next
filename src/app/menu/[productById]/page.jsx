@@ -86,7 +86,7 @@ export default function ProductById({ params }) {
 	return (
 		<>
 			<div className='max-w-7xl mx-auto px-4 py-6 bg-white mt-[70px]'>
-				{/* Navigation Categories */}
+				
 				<nav className='mb-8'>
 					<ul className='flex flex-wrap gap-6 text-sm text-gray-600 border-b border-gray-200 pb-4'>
 						<li className='border-b-2 border-orange-500 text-orange-500 font-medium pb-2'>
@@ -113,7 +113,7 @@ export default function ProductById({ params }) {
 
 				<div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
 					<div className='space-y-4'>
-						{/* Main Image */}
+					
 						<div className='bg-gray-100 rounded-lg overflow-hidden'>
 							<Image
 								src={product[0].image}
@@ -124,7 +124,7 @@ export default function ProductById({ params }) {
 							/>
 						</div>
 
-						{/* Thumbnail Images */}
+				
 						<div className='flex gap-3'>
 							<div className='w-20 h-20 bg-gray-100 rounded-lg overflow-hidden'>
 								<Image
@@ -156,20 +156,20 @@ export default function ProductById({ params }) {
 						</div>
 					</div>
 
-					{/* Product Details */}
+					
 					<div className='space-y-6'>
-						{/* Title */}
+						
 						<h1 className='text-2xl font-bold text-gray-900'>
 							{product[0].name}
 						</h1>
 
-						{/* Price */}
+					
 						<div className='flex items-baseline gap-2'>
 							<span className='text-3xl font-bold text-gray-900'>{product[0].price}$</span>
 							<span className='text-sm text-gray-500'>/ 400 грамм</span>
 						</div>
 
-						{/* Quantity and Add to Cart */}
+					
 						<div className='space-y-3'>
 							<p className='text-sm text-gray-600'>Количество порций:</p>
 							<div className='flex items-center gap-4'>
@@ -188,14 +188,14 @@ export default function ProductById({ params }) {
 							</div>
 						</div>
 
-						{/* Make it Tastier Section */}
+					
 						<div className='space-y-4 pt-6 border-t border-gray-200'>
 							<h3 className='text-lg font-semibold text-gray-900'>
 								Сделать еще вкуснее
 							</h3>
 
 							<div className='space-y-3'>
-								{/* Nuts Option */}
+							
 								<div className='flex items-center justify-between p-3 border border-gray-200 rounded-lg'>
 									<div>
 										<p className='text-sm text-gray-700'>Тертые орешки 60 г</p>
@@ -204,7 +204,7 @@ export default function ProductById({ params }) {
 									<button className='w-6 h-6 border-2 border-gray-300 rounded'></button>
 								</div>
 
-								{/* Tomatoes/Paprika Option */}
+					
 								<div className='flex items-center justify-between p-3 border border-gray-200 rounded-lg'>
 									<div>
 										<p className='text-sm text-gray-700'>Томаты / паприка</p>
@@ -213,7 +213,7 @@ export default function ProductById({ params }) {
 									<button className='w-6 h-6 border-2 border-gray-300 rounded'></button>
 								</div>
 
-								{/* Bacon Option */}
+						
 								<div className='flex items-center justify-between p-3 border border-gray-200 rounded-lg'>
 									<div>
 										<p className='text-sm text-gray-700'>Бекон</p>
@@ -222,7 +222,7 @@ export default function ProductById({ params }) {
 									<button className='w-6 h-6 border-2 border-gray-300 rounded'></button>
 								</div>
 
-								{/* Cheese Option */}
+							
 								<div className='flex items-center justify-between p-3 border border-gray-200 rounded-lg'>
 									<div>
 										<p className='text-sm text-gray-700'>Сыр чеддер 30 г</p>

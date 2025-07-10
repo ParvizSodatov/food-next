@@ -1,49 +1,49 @@
 export default function Component() {
   return (
     <section className="relative min-h-screen flex items-center justify-center ">
-      {/* Background Image */}
+ 
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('/foto/r.png')`,
         }}
       >
-        {/* Dark Overlay */}
+        
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
       <div className="relative z-10 w-full flex items-center justify-center min-h-screen px-4">
       
         <div className="bg-black/40 backdrop-blur-sm p-8 rounded-lg w-full max-w-md">
-          {/* Logo */}
+       
           <div className="text-center mb-8">
             <div className="text-orange-400 text-2xl font-bold mb-2">✦</div>
             <h1 className="text-orange-400 text-3xl font-bold tracking-wider">FOOD</h1>
             <div className="text-orange-400 text-2xl font-bold mt-2">✦</div>
           </div>
 
-          {/* Form Title */}
+      
           <h3 className="text-white text-center text-lg font-medium mb-6 tracking-wide">ЗАБРОНИРОВАТЬ СТОЛИК</h3>
 
-          {/* Form */}
+         
           <form className="space-y-4">
-            {/* Name Input */}
+        
             <input
               type="text"
               placeholder="Имя"
               className="w-full px-4 py-3 bg-transparent border border-gray-400 rounded-md text-white placeholder:text-gray-300 focus:border-orange-400 focus:outline-none"
             />
 
-            {/* Phone Input */}
+        
             <input
               type="tel"
               placeholder="Телефон"
               className="w-full px-4 py-3 bg-transparent border border-gray-400 rounded-md text-white placeholder:text-gray-300 focus:border-orange-400 focus:outline-none"
             />
 
-            {/* Guests and Time Row */}
+       
             <div className="grid grid-cols-2 gap-4">
-              {/* Guests Select */}
+             
               <select className="px-4 py-3 bg-transparent border border-gray-400 rounded-md text-white focus:border-orange-400 focus:outline-none">
                 <option value="" className="bg-gray-800 text-white">
                   Гостей

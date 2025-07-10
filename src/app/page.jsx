@@ -9,14 +9,14 @@ export default function Home() {
 	return (
 		<>
 			<div className='flex w-full h-screen'>
-				{/* Левая панель — прячем на мобилке */}
+			
 				<div className='w-[60px] hidden md:block'>
 					<Image src={leftbar} alt='leftbar' className='h-full object-cover' />
 				</div>
-				{/* Правая часть */}
+			
 				<div className='relative flex-1'>
 					<Image src={bg1} alt='background' fill className='object-cover' />
-					{/* Навигация */}
+			
 
 					<div className='absolute inset-0 flex flex-col justify-center items-center text-white text-center z-10 px-4'>
 						<h1 className='text-2xl md:text-4xl font-bold mb-4'>
@@ -149,7 +149,7 @@ export default function Home() {
 				{/* Delivery Section */}
 				<section className='py-16 px-4 sm:px-6 lg:px-8'>
 					<div className='max-w-7xl mx-auto'>
-						{/* Header */}
+					
 						<div className='mb-12'>
 							<h2 className='text-sm font-medium text-gray-600 uppercase tracking-wider mb-2'>
 								ДОСТАВКА
@@ -157,9 +157,9 @@ export default function Home() {
 							<div className='w-16 h-0.5 bg-orange-400'></div>
 						</div>
 
-						{/* Content Grid */}
+				
 						<div className='grid lg:grid-cols-2 gap-8 lg:gap-16 items-start'>
-							{/* Left Column - Title */}
+						
 							<div>
 								<h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight'>
 									Служба
@@ -168,7 +168,7 @@ export default function Home() {
 								</h1>
 							</div>
 
-							{/* Right Column - Description and Buttons */}
+				
 							<div className='space-y-8'>
 								<p className='text-gray-700 text-base sm:text-lg leading-relaxed'>
 									Phasellus diam, ultrices lobortis integer et. Diam, purus vel
@@ -197,7 +197,6 @@ export default function Home() {
 					</div>
 				</section>
 
-				{/* Contacts Section */}
 				<section className='py-16 px-4 sm:px-6 lg:px-8'>
 					<div className='max-w-7xl mx-auto'>
 						{/* Header */}
@@ -208,9 +207,9 @@ export default function Home() {
 							<div className='w-16 h-0.5 bg-orange-400'></div>
 						</div>
 
-						{/* Content Grid */}
+					
 						<div className='grid lg:grid-cols-2 gap-8 lg:gap-16'>
-							{/* Left Column - Delivery Times */}
+						
 							<div className='grid grid-cols-2 gap-8'>
 								<div className='text-center'>
 									<div className='text-4xl sm:text-5xl font-bold text-amber-600 mb-2'>
@@ -261,9 +260,9 @@ export default function Home() {
 								</div>
 							</div>
 
-							{/* Right Column - Map with Contact Info */}
+							
 							<div className='relative'>
-								{/* Map Background */}
+						
 								<div
 									className='w-full h-96 bg-gray-300 rounded-lg relative overflow-hidden'
 									
@@ -273,7 +272,7 @@ export default function Home() {
 									  backgroundPosition: "center",
 									}}
 								>
-									{/* Contact Info Card */}
+									
 									<div className='absolute top-4 left-4 bg-gray-800 text-white p-6 rounded-lg max-w-xs'>
 										<div className='space-y-4'>
 											<div className='flex items-start space-x-3'>
